@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/third1"
+    android:layout_height="match_parent"
+    tools:context="com.example.devesh.project_mukul.third">
+
+    <EditText
+        android:id="@+id/editText16"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/button17"
+        android:layout_marginTop="13dp"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editText6"
+        android:layout_below="@+id/editText16"
+        android:layout_marginTop="12dp"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="15dp"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/editText6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="E mail"
+        android:inputType="textEmailAddress"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText7"
+        android:layout_marginTop="16dp"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/editText8"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="17dp"
+        android:background="?attr/colorButtonNormal"
+        android:elevation="5dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign UP"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText16"
+        android:layout_marginStart="49dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
